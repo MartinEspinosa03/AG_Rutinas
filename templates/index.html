@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo Genético</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <h4>AG PARA CREAR TU RUTINA DE EJERCICIO IDEAL PARA TI</h4>
+    <div class="container">
+        <form>
+            <label for="tipo_rutina">Tipo de Rutina:</label>
+            <select id="tipo_rutina" onchange="toggleGroupMuscleSelection()">
+                <option value="ganar_fuerza">Ganar Fuerza</option>
+                <option value="ganar_masa">Ganar Masa</option>
+                <option value="resistencia">Perder Peso/Ganar Resistencia</option>
+            </select><br>
+
+            <div id="grupo_muscular_seccion" style="display:none;">
+                <label>Selecciona los grupos musculares a trabajar (1-3):</label><br>
+                <label class="checkbox-label">PECHO    <input type="checkbox" name="grupo_muscular" value="PECHO"></label>
+                <label class="checkbox-label">ESPALDA<input type="checkbox" name="grupo_muscular" value="ESPALDA"></label>
+                <label class="checkbox-label">BICEPS  <input type="checkbox" name="grupo_muscular" value="BICEPS"></label>
+                <label class="checkbox-label">TRICEPS<input type="checkbox" name="grupo_muscular" value="TRICEPS"></label>
+                <label class="checkbox-label">HOMBRO  <input type="checkbox" name="grupo_muscular" value="HOMBRO"></label>
+                <label class="checkbox-label">PIERNA  <input type="checkbox" name="grupo_muscular" value="PIERNA"></label>
+            </div>
+            
+
+            <label for="porcentaje_cruza">Porcentaje de Cruza:</label>
+            <input type="number" id="porcentaje_cruza" step="0.1" value="0.5"><br>
+            <label for="porcentaje_mut_ind">Porcentaje de Mutación Individual:</label>
+            <input type="number" id="porcentaje_mut_ind" step="0.1" value="0.5"><br>
+            <label for="porcentaje_mut_gen">Porcentaje de Mutación Genética:</label>
+            <input type="number" id="porcentaje_mut_gen" step="0.1" value="0.5"><br>
+            <label for="poblacion_inicial">Población Inicial:</label>
+            <input type="number" id="poblacion_inicial" value="10"><br>
+            <label for="poblacion_max">Población Máxima:</label>
+            <input type="number" id="poblacion_max" value="40"><br>
+            <label for="generaciones">Número de Generaciones:</label>
+            <input type="number" id="generaciones" value="30"><br>
+            <button type="button" class="config" onclick="setup()">Configurar</button>
+            <button type="button" class="eject" onclick="run()">Ejecutar Algoritmo</button>
+        </form>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        function toggleGroupMuscleSelection() {
+            const tipoRutina = document.getElementById('tipo_rutina').value;
+            const grupoMuscularSeccion = document.getElementById('grupo_muscular_seccion');
+            grupoMuscularSeccion.style.display = tipoRutina === 'ganar_masa' ? 'block' : 'none';
+        }
+
+        function setup() {
+            const tipoRutina = document.getElementById('tipo_rutina').value;
+            const porcentajeCruza = parseFloat(document.getElementById('porcentaje_cruza').value);
+            const porcentajeMutInd = parseFloat(document.getElementById('porcentaje_mut_ind').value);
+            const porcentajeMutGen = parseFloat(document.getElementById('porcentaje_mut_gen').value);
+            const poblacionInicial = parseInt(document.getElementById('poblacion_inicial').value);  
+            const poblacionMax = parseInt(document.getElementById('poblacion_max').value);
+            const generaciones = parseInt(document.getElementById('generaciones').value);
+
+            const selectedMuscleGroups = Array.from(document.querySelectorAll('input[name="grupo_muscular"]:checked')).map(checkbox => checkbox.value);
+
+            if (tipoRutina === 'ganar_masa' && (selectedMuscleGroups.length < 1 || selectedMuscleGroups.length > 3)) {
+                alert("Debes seleccionar entre 1 a 3 grupos musculares para la rutina para ganar masa.");
+                return;
+            }
+
+            const data = {
+                tipo_rutina: tipoRutina,
+                porcentaje_cruza: porcentajeCruza,
+                porcentaje_mut_ind: porcentajeMutInd,
+                porcentaje_mut_gen: porcentajeMutGen,
+                poblacion_inicial: poblacionInicial,
+                poblacion_max: poblacionMax,
+                generaciones: generaciones,
+                grupos_musculares: selectedMuscleGroups
+            };
+
+            console.log("Enviando configuración:", data);
+
+            fetch('/setup', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log("Respuesta de configuración:", data);
+                alert(data.message);
+            })
+            .catch(error => console.error('Error:', error));
+        }
+
+        function run() {
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '';
+            
+            fetch('/run')
+            .then(response => response.json())
+            .then(data => {
+                console.log("Respuesta de ejecución:", data);
+                
+                if (data.error) {
+                    resultsDiv.innerHTML = `<p>Error: ${data.error}</p>`;
+                } else {
+                    let table = '<table><thead><tr><th>Categorías</th><th>Ejercicio</th><th>Descripción</th><th>Series</th><th>Reps</th></tr></thead><tbody>';
+                    data.best_exercises.forEach(exercise => {
+                        table += `<tr>
+                                    <td>${exercise.categorias.join(", ")}</td>
+                                    <td>${exercise.ejercicio}</td>
+                                    <td>${exercise.descripcion}</td>
+                                    <td>${exercise.series}</td>
+                                    <td>${exercise.repeticiones}</td>
+                                  </tr>`;
+                    });
+                    table += '</tbody></table>';
+                    resultsDiv.innerHTML += table;
+
+                    const graficaImg = document.createElement('img');
+                    graficaImg.src = data.graphic_url;
+                    graficaImg.alt = 'Gráfica de Resultados';
+                    resultsDiv.appendChild(graficaImg);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>

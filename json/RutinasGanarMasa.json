@@ -1,0 +1,724 @@
+{
+    "GANARMASA":[
+        {
+            "id": 1,
+            "ejercicio": "Machine Shoulder Press",
+            "descripcion": "Sentado en la máquina, empuja las manijas hacia arriba desde la altura de los hombros hasta que los brazos estén extendidos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["HOMBRO"],
+            "favorito": false
+        },
+        {
+            "id": 2,
+            "ejercicio": "Cross Body Cable Y Raise",
+            "descripcion": "De pie, utiliza una polea baja para levantar el cable en un movimiento de 'Y' hacia arriba y al frente, cruzando el cuerpo.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["HOMBRO"],
+            "favorito": true
+        },
+        {
+          "id": 3,
+          "ejercicio": "Reverse Pec Deck",
+          "descripcion": "Sentado en la máquina pec deck, ajusta las manijas hacia atrás y abre los brazos hasta que estén alineados con los hombros.",
+          "series": 3,
+          "repeticiones": 15,
+          "categorias": ["HOMBRO"],
+          "favorito": false
+        },
+        {
+          "id": 4,
+          "ejercicio": "EZ Bar Front Raise",
+          "descripcion": "De pie, levanta una barra EZ hacia el frente hasta la altura de los hombros.",
+          "series": 3,
+          "repeticiones": 12,
+          "categorias": ["HOMBRO"],
+          "favorito": false
+        },
+        {
+          "id": 5,
+          "ejercicio": "Super ROM Lateral Raise",
+          "descripcion": "De pie, levanta mancuernas a los lados más allá de la altura de los hombros.",
+          "series": 3,
+          "repeticiones": 12,
+          "categorias": ["HOMBRO"],
+          "favorito": false
+        },
+        {
+          "id": 6,
+          "ejercicio": "Super ROM Reverse Cable Flye",
+          "descripcion": "De pie, cruza cables hacia atrás más allá de la alineación de los hombros.",
+          "series": 3,
+          "repeticiones": 12,
+          "categorias": ["HOMBRO"],
+          "favorito": false
+        },
+        {
+            "id": 7,
+            "ejercicio": "Machine Chest Press",
+            "descripcion": "Sentado en la máquina, empuja las manijas hacia adelante desde la altura del pecho hasta que los brazos estén extendidos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": true
+          },
+          {
+            "id": 8,
+            "ejercicio": "Seated Cable Pec Fly",
+            "descripcion": "Sentado en un banco con poleas, junta las manijas frente al pecho manteniendo los codos ligeramente doblados.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 9,
+            "ejercicio": "Incline Dumbbell Press",
+            "descripcion": "Acostado en un banco inclinado, empuja las mancuernas hacia arriba desde la altura del pecho hasta que los brazos estén extendidos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 10,
+            "ejercicio": "Hex Press",
+            "descripcion": "Acostado en un banco, empuja dos mancuernas juntas desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 11,
+            "ejercicio": "Bench Press",
+            "descripcion": "Acostado en un banco, empuja una barra hacia arriba desde la altura del pecho hasta que los brazos estén extendidos.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 12,
+            "ejercicio": "Incline Bench Press",
+            "descripcion": "Acostado en un banco inclinado, empuja una barra hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 13,
+            "ejercicio": "Decline Bench Press",
+            "descripcion": "Acostado en un banco declinado, empuja una barra hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 14,
+            "ejercicio": "Flat Dumbbell Press",
+            "descripcion": "Acostado en un banco, empuja las mancuernas hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 15,
+            "ejercicio": "Dips",
+            "descripcion": "En paralelas, baja el cuerpo doblando los codos y vuelve a subir.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 16,
+            "ejercicio": "Push Ups",
+            "descripcion": "Desde una posición de plancha, baja y sube el cuerpo utilizando los brazos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 17,
+            "ejercicio": "Guillotine Press",
+            "descripcion": "Acostado en un banco, baja la barra hasta el cuello y empuja hacia arriba.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 18,
+            "ejercicio": "Arm Dumbbell Press",
+            "descripcion": "Acostado en un banco, empuja una mancuerna con un brazo hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 19,
+            "ejercicio": "Smith Machine Bench Press",
+            "descripcion": "Acostado en un banco, empuja la barra de la máquina Smith hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 20,
+            "ejercicio": "Incline Smith Machine Press",
+            "descripcion": "Acostado en un banco inclinado, empuja la barra de la máquina Smith hacia arriba.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 21,
+            "ejercicio": "Cable Crossovers",
+            "descripcion": "De pie entre dos poleas, junta las manijas frente al pecho.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 22,
+            "ejercicio": "Pec Deck",
+            "descripcion": "Sentado en la máquina pec deck, junta las manijas frente al pecho.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 22,
+            "ejercicio": "Dumbbell Flye",
+            "descripcion": "Acostado en un banco, abre y cierra los brazos con mancuernas manteniendo los codos ligeramente doblados.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 23,
+            "ejercicio": "Cable Press Around",
+            "descripcion": "De pie, empuja las manijas de las poleas cruzadas hacia adelante y alrededor del cuerpo.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 24,
+            "ejercicio": "Cross Body Standing Dumbbell Flye",
+            "descripcion": "De pie, cruza los brazos frente al cuerpo levantando mancuernas.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 25,
+            "ejercicio": "Floor Press",
+            "descripcion": "Acostado en el suelo, empuja una barra hacia arriba desde la altura del pecho.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 26,
+            "ejercicio": "Pull Up",
+            "descripcion": "Con un agarre más amplio que los hombros, levanta tu cuerpo hasta que la barbilla pase la barra.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 27,
+            "ejercicio": "Wide Grip Lat Pulldown",
+            "descripcion": "Sentado, agarra la barra con las manos más anchas que los hombros y tira de ella hacia el pecho.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 28,
+            "ejercicio": "Dumbbell Row",
+            "descripcion": "Con una mancuerna en cada mano, inclínate hacia adelante y tira de las mancuernas hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 29,
+            "ejercicio": "Chin Up",
+            "descripcion": "Con un agarre más estrecho y las palmas hacia ti, levanta tu cuerpo hasta que la barbilla pase la barra.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 30,
+            "ejercicio": "Neutral Grip Pulldown",
+            "descripcion": "Sentado, agarra la barra con las manos en un agarre neutral y tira de ella hacia el pecho.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 31,
+            "ejercicio": "Half Kneeling Pulldown",
+            "descripcion": "Arrodillado en una pierna, tira de una barra o cuerda hacia abajo desde arriba.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 32,
+            "ejercicio": "Cross Body Pullaround",
+            "descripcion": "De pie, jala una cuerda en diagonal a través de tu cuerpo.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 33,
+            "ejercicio": "Barbell Row",
+            "descripcion": "Inclinado hacia adelante, tira de una barra hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 34,
+            "ejercicio": "Yates Row",
+            "descripcion": "Inclinado hacia adelante con un ángulo más bajo, tira de una barra hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 10,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 35,
+            "ejercicio": "Pendlay Row",
+            "descripcion": "Desde el suelo, tira de una barra hacia tu abdomen manteniendo una postura baja.",
+            "series": 3,
+            "repeticiones": 8,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 36,
+            "ejercicio": "Meadows Row",
+            "descripcion": "Con una barra en una esquina, inclínate hacia adelante y tira de la barra con una mano hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 37,
+            "ejercicio": "Free Standing Row",
+            "descripcion": "Inclinado hacia adelante, tira de una barra o mancuernas hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 38,
+            "ejercicio": "Chest Supported Row",
+            "descripcion": "En una máquina con apoyo para el pecho, tira de las manijas hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 39,
+            "ejercicio": "Cable Row",
+            "descripcion": "Sentado en una máquina de remo, tira de las manijas hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 40,
+            "ejercicio": "Wide Grip Cable Row",
+            "descripcion": "Sentado en una máquina de remo, tira de una barra con un agarre ancho hacia tu abdomen.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 41,
+            "ejercicio": "Rope Face Pull",
+            "descripcion": "De pie, tira de una cuerda hacia tu cara manteniendo los codos altos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 42,
+            "ejercicio": "Cable Pullover",
+            "descripcion": "De pie, tira de una barra o cuerda desde arriba hacia tus muslos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 43,
+            "ejercicio": "DB Pullover",
+            "descripcion": "Acostado en un banco, baja una mancuerna detrás de tu cabeza y vuelve a subir.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["ESPALDA"],
+            "favorito": false
+          },
+          {
+            "id": 44,
+            "ejercicio": "Spider Curl",
+            "descripcion": "Acostado en un banco inclinado con el pecho apoyado, flexiona los codos levantando una barra Z hacia arriba.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 45,
+            "ejercicio": "Hammer Curl",
+            "descripcion": "Con mancuernas en ambas manos, levanta las mancuernas manteniendo los codos fijos y las palmas enfrentadas.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 46,
+            "ejercicio": "Incline Dumbbell Curl",
+            "descripcion": "Sentado en un banco inclinado, flexiona los codos levantando las mancuernas hacia los hombros.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 47,
+            "ejercicio": "Compound Lift",
+            "descripcion": "Flexiona los codos levantando una barra Z desde los muslos hasta los hombros.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 48,
+            "ejercicio": "Close Grip EZ Bar Curl",
+            "descripcion": "Con un agarre estrecho en una barra EZ, flexiona los codos levantando la barra hacia arriba.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 49,
+            "ejercicio": "Reverse Curl",
+            "descripcion": "Con un agarre prono en una barra, flexiona los codos levantando la barra hacia arriba.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 50,
+            "ejercicio": "Behind the Back Cable Curl",
+            "descripcion": "De pie frente a una polea baja, flexiona el codo levantando la manija hacia arriba detrás de la espalda.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 51,
+            "ejercicio": "Arm Blaster",
+            "descripcion": "Con un soporte para los brazos, flexiona los codos levantando una barra o mancuernas hacia arriba.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 52,
+            "ejercicio": "Pressdown Rope",
+            "descripcion": "Con una cuerda, estira los brazos hacia abajo manteniendo los codos fijos a los lados.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["BICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 53,
+            "ejercicio": "Pressdown Bar",
+            "descripcion": "Con una barra Z, estira los brazos hacia abajo manteniendo los codos fijos a los lados.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 54,
+            "ejercicio": "Overhead Cable Triceps Extension",
+            "descripcion": "Con una barra Z, extiende los brazos por encima de la cabeza manteniendo los codos fijos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 55,
+            "ejercicio": "French Press",
+            "descripcion": "Acostado en un banco, baja una barra desde los brazos extendidos hasta la frente y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 56,
+            "ejercicio": "Overhead Cable Triceps Extension Rope",
+            "descripcion": "Con una cuerda, extiende los brazos por encima de la cabeza manteniendo los codos fijos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 57,
+            "ejercicio": "Katana Cable Triceps Extension",
+            "descripcion": "Con una cuerda, extiende el brazo diagonalmente desde la cabeza hasta el muslo opuesto.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 58,
+            "ejercicio": "Dumbbell French Press",
+            "descripcion": "Acostado en un banco, baja mancuernas desde los brazos extendidos hasta la frente y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 59,
+            "ejercicio": "Skullcrusher",
+            "descripcion": "Acostado en un banco, baja una barra desde los brazos extendidos hasta la frente y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 60,
+            "ejercicio": "Dumbbell Skullcrusher",
+            "descripcion": "Acostado en un banco, baja mancuernas desde los brazos extendidos hasta la frente y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 61,
+            "ejercicio": "JM Press",
+            "descripcion": "Acostado en un banco, baja una barra desde los brazos extendidos hasta los codos y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 62,
+            "ejercicio": "Smith Machine JM Press",
+            "descripcion": "Acostado en un banco, baja la barra de la máquina Smith desde los brazos extendidos hasta los codos y vuelve a extender.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 63,
+            "ejercicio": "Cable Triceps Kickback",
+            "descripcion": "De pie, extiende una cuerda hacia atrás manteniendo el codo fijo.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 64,
+            "ejercicio": "Dumbbell Triceps Kickback",
+            "descripcion": "De pie, extiende una mancuerna hacia atrás manteniendo el codo fijo.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 65,
+            "ejercicio": "Close Grip Dips",
+            "descripcion": "En paralelas, baja el cuerpo doblando los codos y vuelve a subir con las manos más juntas.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 66,
+            "ejercicio": "Machine Dips",
+            "descripcion": "En una máquina de dips, baja el cuerpo doblando los codos y vuelve a subir.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 67,
+            "ejercicio": "Close Grip Bench Press",
+            "descripcion": "Acostado en un banco, empuja una barra hacia arriba desde la altura del pecho con un agarre estrecho.",
+            "series": 3,
+            "repeticiones": 12,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 68,
+            "ejercicio": "Close Grip Pushup",
+            "descripcion": "Desde una posición de plancha con las manos más juntas, baja y sube el cuerpo utilizando los brazos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 69,
+            "ejercicio": "Diamond Pushup",
+            "descripcion": "Desde una posición de plancha con las manos formando un diamante, baja y sube el cuerpo utilizando los brazos.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["TRICEPS"],
+            "favorito": false
+          },
+          {
+            "id": 70,
+            "ejercicio": "Barbell Back Squat",
+            "descripcion": "De pie, baja el cuerpo manteniendo la espalda recta y vuelve a subir.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 71,
+            "ejercicio": "Leg Extension",
+            "descripcion": "Sentado en una máquina de extensión, levanta el peso extendiendo las piernas.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 72,
+            "ejercicio": "Hack Squat",
+            "descripcion": "En una máquina de prensa, empuja el peso hacia arriba desde las piernas flexionadas.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 73,
+            "ejercicio": "Bulgarian Split Squat",
+            "descripcion": "Con una mancuerna en cada mano, coloca un pie en un banco detrás de ti y baja el cuerpo manteniendo la espalda recta.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 74,
+            "ejercicio": "Squat",
+            "series": 3,
+            "repeticiones": 15,
+            "descripcion": "Baja hasta que las caderas estén por debajo de las rodillas y sube manteniendo la espalda recta.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 75,
+            "ejercicio": "Front Squat",
+            "series": 3,
+            "repeticiones": 15,
+            "descripcion": "Baja hasta que las caderas estén por debajo de las rodillas con la barra sobre los hombros, al frente.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 76,
+            "ejercicio": "Deadlift",
+            "series": 3,
+            "repeticiones": 15,
+            "descripcion": "Levanta la barra del suelo manteniendo la espalda recta y las caderas abajo, termina con las caderas y hombros alineados.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 77,
+            "ejercicio": "Sumo Deadlift",
+            "series": 3,
+            "repeticiones": 15,
+            "descripcion": "Usa una postura más amplia y levanta la barra del suelo, enfatizando más en los glúteos y aductores.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 78,
+            "ejercicio": "Romanian Deadlift",
+            "series": 3,
+            "repeticiones": 15,
+            "descripcion": "Con una ligera flexión de rodillas, baja la barra manteniendo la espalda recta y vuelve a subir enfocándote en los isquiotibiales.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 79,
+            "ejercicio": "Abdomen",
+            "descripcion": "Dominadas y 1 minuto de plancha.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ABDOMEN"],
+            "favorito": false
+        }
+    ]
+}

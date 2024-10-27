@@ -1,0 +1,179 @@
+{
+    "Circuito 1": [
+        {
+          "id": 1,
+          "ejercicio": "Kettlebell Swings",
+          "descripcion": "Con una kettlebell, balancea el peso entre tus piernas y hacia arriba a la altura del pecho utilizando la cadera y las piernas.",
+          "series": 3,
+          "repeticiones": 20,
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        },
+        {
+          "id": 2,
+          "ejercicio": "Burpees",
+          "descripcion": "Comienza en posición de pie, baja al suelo en una posición de plancha, realiza una flexión, vuelve a la posición de sentadilla y termina con un salto explosivo.",
+          "series": 3,
+          "repeticiones": 15,
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        },
+        {
+          "id": 3,
+          "ejercicio": "Mountain Climbers",
+          "descripcion": "En posición de plancha alta, alterna llevando las rodillas hacia el pecho lo más rápido posible.",
+          "series": 3,
+          "repeticiones": 30,
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        },
+        {
+          "id": 4,
+          "ejercicio": "Burpees",
+          "series": 3,
+          "repeticiones": 10,
+          "descripcion": "Comienza en posición de pie, baja al suelo en una posición de plancha, realiza una flexión, vuelve a la posición de sentadilla y termina con un salto explosivo.",
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        },
+        {
+          "id": 5,
+          "ejercicio": "Mountain Climbers",
+          "series": 3,
+          "repeticiones": 20,
+          "descripcion": "En posición de plancha alta, alterna llevando las rodillas hacia el pecho lo más rápido posible.",
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        },
+        {
+          "id": 6,
+          "ejercicio": "Kettlebell Swings",
+          "series": 3,
+          "repeticiones": 15,
+          "descripcion": "Con los pies separados al ancho de los hombros, balancea una kettlebell entre tus piernas y luego hacia arriba a la altura de los hombros usando la cadera.",
+          "categorias": ["Circuito 1"],
+          "favorito": false
+        }
+      ],
+      "Circuito 2": [
+        {
+          "id": 7,
+          "ejercicio": "Planks",
+          "descripcion": "Mantén una posición de plancha con los antebrazos en el suelo y el cuerpo en línea recta desde la cabeza hasta los talones.",
+          "series": 3,
+          "repeticiones": "45-60 segundos",
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        },
+        {
+          "id": 8,
+          "ejercicio": "High Knee Running",
+          "descripcion": "Corre en el lugar levantando las rodillas hacia el pecho lo más alto posible.",
+          "series": 3,
+          "repeticiones": "60 segundos",
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        },
+        {
+          "id": 9,
+          "ejercicio": "Walking Lunges",
+          "descripcion": "Da un paso adelante y baja el cuerpo hasta que ambas rodillas estén dobladas a 90 grados. Alterna las piernas mientras avanzas.",
+          "series": 3,
+          "repeticiones": 20,
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        },
+        {
+          "id": 10,
+          "ejercicio": "High Knee Running",
+          "series": 3,
+          "repeticiones": "30 segundos",
+          "descripcion": "Corre en el lugar levantando las rodillas hacia el pecho lo más alto posible.",
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        },
+        {
+          "id": 11,
+          "ejercicio": "Jump Squats",
+          "series": 3,
+          "repeticiones": 15,
+          "descripcion": "Realiza una sentadilla y al subir, salta explosivamente y vuelve a la posición inicial.",
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        },
+        {
+          "id": 12,
+          "ejercicio": "TRX Rows",
+          "series": 3,
+          "repeticiones": 12,
+          "descripcion": "Utilizando un TRX, inclínate hacia atrás y tira de tu cuerpo hacia el TRX, manteniendo el cuerpo recto.",
+          "categorias": ["Circuito 2"],
+          "favorito": false
+        }
+      ],
+      "Circuito 3": [
+        {
+          "id": 13,
+          "ejercicio": "Jump Rope",
+          "descripcion": "Salta la cuerda a un ritmo constante, manteniendo un ritmo moderado.",
+          "series": 3,
+          "repeticiones": "2 minutos",
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 14,
+          "ejercicio": "Push-Ups",
+          "descripcion": "Con el cuerpo en línea recta, baja y sube el cuerpo utilizando los brazos mientras mantienes el núcleo apretado.",
+          "series": 3,
+          "repeticiones": 20,
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 15,
+          "ejercicio": "Bodyweight Squats",
+          "descripcion": "De pie con los pies a la anchura de los hombros, baja en una sentadilla y vuelve a subir.",
+          "series": 3,
+          "repeticiones": 25,
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 16,
+          "ejercicio": "Jumping Jacks",
+          "series": 3,
+          "repeticiones": "1 minuto",
+          "descripcion": "Salta abriendo las piernas y levantando los brazos sobre la cabeza, vuelve a la posición inicial y repite.",
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 17,
+          "ejercicio": "Plank Variations",
+          "series": 3,
+          "repeticiones": "30-60 segundos",
+          "descripcion": "Mantén una posición de plancha sobre los antebrazos, también puedes hacer planchas laterales y planchas altas.",
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 18,
+          "ejercicio": "Box Jumps",
+          "series": 3,
+          "repeticiones": 10,
+          "descripcion": "Salta sobre una caja desde una posición de sentadilla y vuelve a bajar con control.",
+          "categorias": ["Circuito 3"],
+          "favorito": false
+        },
+        {
+          "id": 19,
+          "ejercicio": "Abdomen",
+          "descripcion": "Dominadas y 1 minuto de plancha.",
+          "series": 3,
+          "repeticiones": 15,
+          "categorias": ["ABDOMEN"],
+          "favorito": false
+      }
+      ]
+}

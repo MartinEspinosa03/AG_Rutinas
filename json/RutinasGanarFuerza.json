@@ -1,0 +1,113 @@
+{
+    "GANARFUERZA":[
+        {
+            "id": 1,
+            "ejercicio": "Paused Bench Press",
+            "series": 1,
+            "repeticiones": 1,
+            "RPE": 8,
+            "descripcion": "Baja la barra al pecho, pausa por un segundo y presiona hacia arriba.",
+            "categorias": ["PECHO"],
+            "favorito": false
+        },
+        {
+            "id": 2,
+            "ejercicio": "3-Second Pause Bench Press",
+            "series": 2,
+            "repeticiones": 3,
+            "RPE": 7,
+            "descripcion": "Baja la barra al pecho, pausa por tres segundos y presiona hacia arriba.",
+            "categorias": ["PECHO"],
+            "favorito": false
+        },
+        {
+          "id": 3,
+          "ejercicio": "2-Board Bench Press",
+          "series": 2,
+          "repeticiones": 5,
+          "RPE": 8,
+          "descripcion": "Usa una tabla para limitar el rango de movimiento y enfocar en la parte superior del levantamiento.",
+          "categorias": ["PECHO"],
+          "favorito": false
+        },
+        {
+            "id": 4,
+            "ejercicio": "Heavy Bench Press Hold",
+            "series": 1,
+            "repeticiones": 10,
+            "RPE": 10,
+            "descripcion": "Sostén la barra con un peso máximo por 10 segundos para mejorar la estabilidad y fuerza.",
+            "categorias": ["PECHO"],
+            "favorito": false
+          },
+          {
+            "id": 5,
+            "ejercicio": "Squat",
+            "series": 5,
+            "repeticiones": 3,
+            "RPE": 8,
+            "descripcion": "Baja hasta que las caderas estén por debajo de las rodillas y sube manteniendo la espalda recta.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 6,
+            "ejercicio": "Front Squat",
+            "series": 3,
+            "repeticiones": 5,
+            "RPE": 7,
+            "descripcion": "Baja hasta que las caderas estén por debajo de las rodillas con la barra sobre los hombros, al frente.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 7,
+            "ejercicio": "Box Squat",
+            "series": 3,
+            "repeticiones": 5,
+            "RPE": 8,
+            "descripcion": "Baja hasta sentarte brevemente en una caja antes de levantarte nuevamente.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 8,
+            "ejercicio": "Deadlift",
+            "series": 4,
+            "repeticiones": 3,
+            "RPE": 8,
+            "descripcion": "Levanta la barra del suelo manteniendo la espalda recta y las caderas abajo, termina con las caderas y hombros alineados.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 9,
+            "ejercicio": "Sumo Deadlift",
+            "series": 3,
+            "repeticiones": 5,
+            "RPE": 7,
+            "descripcion": "Usa una postura más amplia y levanta la barra del suelo, enfatizando más en los glúteos y aductores.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 10,
+            "ejercicio": "Romanian Deadlift",
+            "series": 3,
+            "repeticiones": 6,
+            "RPE": 7,
+            "descripcion": "Con una ligera flexión de rodillas, baja la barra manteniendo la espalda recta y vuelve a subir enfocándote en los isquiotibiales.",
+            "categorias": ["PIERNA"],
+            "favorito": false
+          },
+          {
+            "id": 11,
+            "ejercicio": "Abdomen",
+            "descripcion": "Dominadas y 1 minuto de plancha.",
+            "series": 3,
+            "repeticiones": 15,
+            "categorias": ["ABDOMEN"],
+            "favorito": false
+        }
+    ]
+}
